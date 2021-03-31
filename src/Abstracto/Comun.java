@@ -11,7 +11,7 @@ public class Comun {
      
     //metodo abstracto para seleccionar la moneda 
     public String Escojer(){
-        return "Escojer la moneda a convertir ";
+        return "Escojer la moneda a convertir  ";
     }
     //metodo abstracto para la conversion de monedas 
     public Double Divisa(Double pes) {

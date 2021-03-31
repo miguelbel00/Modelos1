@@ -10,6 +10,7 @@ import Abstracto.Comun;
 
 public class LibrasEsterlinas extends Comun{
 
+	//metodo abstracto que devuelve la selecion	
 	@Override
 	public String Escojer(){
         return " Libras Esterlinas";
