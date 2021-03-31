@@ -13,7 +13,6 @@ import Fabrica.Fabrica;
 public class ClienteFabrica {
 public static void main(String[] args) {
     	
-        // TODO code application logic here
     	
         Scanner sc =new Scanner(System.in);
         
@@ -27,7 +26,7 @@ public static void main(String[] args) {
         System.out.println("Digite la divisa a la cual desea hacer la conversion:   ");
         String  seleccion=sc.nextLine();
         
-      //se guarda el dato double (pesos)
+       //se guarda el dato double (pesos)
         System.out.println("Ingrese cuantos pesos colombianos desea convertir:   ");
         Double  pes=sc.nextDouble();
         
