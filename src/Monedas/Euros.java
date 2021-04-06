@@ -22,10 +22,7 @@ public class Euros extends Comun{
 		Double pesos=pes;
 		Double euro= 0.00023 ; 
 		Double resultado= pesos*euro;
-		Double parteEntera = Math.floor(resultado);
-		resultado=(resultado-parteEntera)*Math.pow(10, 2);
-	    resultado=(resultado/Math.pow(10, 2))+parteEntera;
-		//resultado = Math.round(resultado*100.0)/100.0;
+		resultado = Math.round(resultado*100.0)/100.0;
 		return resultado;	
 		
 	}
