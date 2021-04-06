@@ -9,7 +9,7 @@ import Abstracto.Comun;
 */
 
 public class Euros extends Comun{
-	//.
+
 	//metodo abstracto que devuelve la selecion	
 	@Override
     public String Escojer(){
