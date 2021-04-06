@@ -15,7 +15,7 @@ public class Euros extends Comun{
     public String Escojer(){
         return " Euros";
     }
-	//metodo abstracto que hace la conversion de pesos a euros
+	//metodo abstracto que hace la  conversion de pesos a euros
 	@Override
 	public Double Divisa(Double pes) {
 		
